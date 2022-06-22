@@ -16,6 +16,7 @@ import { FormdecesComponent } from './formdeces/formdeces.component';
 import { ConAdminComponent } from './con-admin/con-admin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
+
 const appRoutes: Routes = [
 
   {
@@ -34,7 +35,7 @@ const appRoutes: Routes = [
  {path: 'formulaire_de_deces', component: FormdecesComponent},
  {path: 'formulaire_du_defunt', component: FormdefuntComponent },
  {path: 'connexion_administrateur', component:ConAdminComponent},
- {path:'dashboard', component: DashboardComponent}
+ {path: 'dashboard', component:DashboardComponent}
 
 
 
@@ -55,6 +56,7 @@ const appRoutes: Routes = [
     FormdecesComponent,
     ConAdminComponent,
     DashboardComponent
+
   ],
   imports: [
     BrowserModule,
